@@ -1,0 +1,20 @@
+# Local .terraform directories
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash logs
+crash.log
+
+# Sensitive variable files
+*.tfvars
+
+# ZIP files (optional if you build them manually)
+lambda_code/*.zip
+
+# IDE/editor files (optional, depending on your system)
+*.DS_Store
+*.idea/
+.vscode/
